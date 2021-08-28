@@ -14,6 +14,15 @@
         background-image: url('img/i12.png');
         background-repeat: no-repeat;
     }
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex li{
+        list-style: none;
+        padding: 5px 20px;
+    }
 </style>
 <body >
     <center> <img src="img/i23.png " height="100"></center>
@@ -27,7 +36,7 @@
         <p style="color: lawngreen;">Available in: 32 languages</p>
         <p style="color: deeppink;">Owner: Facebook</p>
         <p style="color: darkturquoise;">People also search for </p>
-        <ul>
+        <ul class="flex">
 
             <li> <i class="fa fa-facebook" style="font-size:48px;color:red;"></i> </li>
              <li>   <i class="fa fa-telegram" style="font-size:36px; color: yellow;"> </i></li>
